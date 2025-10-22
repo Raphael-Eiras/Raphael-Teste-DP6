@@ -5,7 +5,7 @@ O objetivo foi entregar uma implementação limpa, padronizada e totalmente ader
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 Garantir o envio de:
 
@@ -15,9 +15,9 @@ Garantir o envio de:
 
 ---
 
-## 🏗️ Estrutura da Implementação
+## Estrutura da Implementação
 
-## ⚙️ Principais Funcionalidades
+## Principais Funcionalidades
 
 | Página / Elemento        | Evento GA4          | Parâmetros Enviados                         |
 |------------------------|------------------|---------------------------------------------|
@@ -30,7 +30,7 @@ Garantir o envio de:
 | Sobre – Sucesso         | `view_form_success` | `page_location`, `form_id`, `form_name` |
 
 
-## 🔎 Validação e Garantia de Qualidade
+## Validação e Garantia de Qualidade
 
 - **Network (DevTools):** filtro `collect?v=2` para confirmar 1 hit por evento.
 - **DebugView (GA4):** validação da ordem de eventos, principalmente no fluxo de formulário.
@@ -39,7 +39,7 @@ Garantir o envio de:
 
 ---
 
-## 💡 Boas Práticas Aplicadas
+## Boas Práticas Aplicadas
 
 - **Controle Manual de `page_view`
 - **Uso de `addEventListener`** 
